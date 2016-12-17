@@ -1,0 +1,16 @@
+name: spdrns
+version: 0.1.0
+description: |
+  Reference implementation of the SPDRNS race protocol in Crystal.
+authors:
+  - Jon <jonegeland@gmail.com>
+crystal: 0.20.1
+license: MIT
+
+targets:
+  spdrns:
+    main: src/spdrns.cr
+
+dependencies:
+  expect:
+    github: dukex/expect.cr
